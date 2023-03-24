@@ -1,0 +1,51 @@
+帳號註冊與開通程序:
+
+<Note>
+相關操作畫面，請參考 Images 資料夾的圖例。
+
+
+1.  先到 outlook.com 申請 email 帳號
+
+
+2.  連結至 www.microsoftazurepass.com 登入
+    並開通你的 AzurePass
+
+    另一個可免費試用的方式（此法必須用到信用卡資料）:
+    2. https://azure.microsoft.com/zh-tw/free/ 申請試用帳號
+
+
+
+--------------------------------------------------------------------------------
+
+Azure 入口網站
+    https://portal.azure.com/
+
+resource Group 
+lab2300ResourceGroup
+Mysql:
+sqladmin
+S.haron1998
+lab2301mys
+
+mysql -h lab2301mys.mysql.database.azure.com -u sqladmin -p
+ select user, authentication_string from mysql.user;
+
+
+ sqlserver:
+ login: MY112401
+ password:S.haron1998
+-------------------------------------------------------------------------------
+
+語音服務文件
+https://docs.microsoft.com/zh-tw/azure/cognitive-services/speech-service/
+
+
+使用語音 SDK 在瀏覽器中以 JavaScript 辨識語音
+https://docs.microsoft.com/zh-tw/azure/cognitive-services/speech-service/get-started-speech-to-text?tabs=terminal&pivots=programming-language-javascript
+<Question> 似乎聽不懂中文，你能修正這個問題嗎?
+
+Lab:
+使用 Node.js 將文字轉換為語音
+請參閱 Lab_TTS 內的 _LabSteps.txt
+
+

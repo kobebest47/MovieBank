@@ -1,0 +1,9 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "lightName": "main",
+      "lightSwitch": "開"
+    }
+  ]
+}
